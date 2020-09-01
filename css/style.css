@@ -1,0 +1,427 @@
+.navbar{
+	opacity: 0.9;
+}
+.navbar-logo{
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+}
+.logo{
+	margin-left: 50px;
+}
+#home{
+	background: url('../photo/photo5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+	background-attachment: fixed;
+}
+.home1{
+	font-family: Dancing Script;
+}
+.home2{
+	font-family: Roboto;
+}
+.dark-overlay{
+	background: rgba(0,80,80,0.5);
+	height: 700px;	
+}
+.carousel-photo{
+	width: auto;
+	height: 300px;
+	margin: 90px 0px; 
+}
+.about{
+	margin-top: 100px;
+    margin-left: 50px;
+    width: 400px;
+}
+}
+.about-h3{
+	font-family: Tangerine;
+	font-size: 50px;
+}
+.about-h2{
+	font-family: Roboto;
+	font-size: 45px;
+}
+.design{
+	margin-top: -22px;
+	width: 50px;
+	height: 2px;
+}
+.about-p{
+	font-family: Tangerine;
+	font-size: 28px !important;
+}
+.home-inner{
+	padding-top: 250px;
+	padding-bottom: 50px;
+}
+.modal-design{
+	background: rgba(0,80,80,0.9) !important;
+}
+.logo1{
+	margin-top: 80px;
+}
+.footer-overlay{
+	padding: 20px 0px;
+}
+.navbar-logo1{
+	width: 50px;
+	height: 50px;
+	margin-top: -15px;
+}
+.navbar-brand1{
+	font-size: 35px;
+}
+.open{
+	margin-top: 50px;
+	padding-left: 80px;
+}
+.open-hours{
+	font-size: 14px;
+	color: #fff;
+	line-height: 15px;
+}
+.address{
+	margin-top: 50px;
+}
+.loc{
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+}
+.location,.email,.phone{
+	margin-top: 20px;
+	margin-left: 5px;
+}
+.social_icon a{
+	width: 40px;
+	height: 40px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #28d348;
+	margin: 20px 10px;
+	border-radius: 50%;
+	color: #FFF;
+}
+.copy-right{
+	height: 50px;
+	background: #373840;
+	border-top: 2px solid #716a6a;
+}
+.copy-p{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.party{
+	margin-bottom: -60px;
+}
+.party-img{
+	width: 300px;
+	height: 260px;
+	margin-top: -50px;
+}
+.party-img1{
+	width: 300px;
+	height: 300px;
+	margin-top: -60px;
+}
+.party-img2{
+	width: 300px;
+	height: 220px;
+	margin-top: -20px;
+}
+.party-h3 {
+	text-align: center;
+	color: #979393;
+	font-family: robot;
+	margin-top: 50px;
+	margin-bottom: -10px;
+}
+#facts{
+	background: url('../photo/photo5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.facts-overlay{
+	background: rgba(0,80,80,0.5);
+}
+.counter-icon{
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 50px;
+	color: #fff;
+}
+.counter-h5{
+	font-size: 50px;
+	font-family: Dancing Script;
+	text-align: center;
+	color: #fff;
+}
+.counter-content{
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 100px;
+	color: #fff;
+}
+.modal-title{
+	font-family: Roboto;
+	font-size: 22px;
+	margin-left: 20px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+.reserve-overlay{
+	background: url('../photo/photo5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.reserve-inner{
+	background: rgba(0,80,80,0.5);
+}
+.reserve-h3{
+	font-family: Roboto;
+	font-size: 30px;
+}
+.btn-reserve{
+	color: #fff;
+}
+.team-h4{
+	font-size: 18px;
+	color: #fff;
+	padding-top: 50px;
+}
+.team-h3{
+	font-size: 30px;
+	font-family: roboto;
+	color: #fff;
+}
+.team-design{
+	height: 20px;
+	width: 300px;
+}
+.team-p{
+	color: #ffff;
+}
+.card-p{
+	color: #87878a;
+}
+.card-h3{
+	color: #fff;
+}
+.card-design{
+	border-left: 4px solid#259d38;
+	border-right: 4px solid#259d38;
+}
+.card-view{
+	padding-bottom: 30px;
+}
+.team-view{
+	background: url('../photo/photo5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.team-inner{
+	background: rgba(0,80,80,0.5);
+}
+.food-menu-top{
+    background: url('../photo/01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    color: black;
+    
+}
+.image-inner{
+	background: rgba(0,80,80,0.5);
+}
+.food-menu-top h2{
+    font-family: 'Dancing Script';
+    color: #fff;
+    padding-top: 80px;
+}
+.food-menu-top h1{
+    border-bottom: 2px solid#87878a;
+}
+.food-menu-top-layout{
+    height: 100%;
+    width: 100%;
+    background: #65826540;
+}
+
+.last{
+    border-style: none;
+    padding-top: 8px;
+    height: 40px;
+    width: 150px;
+    background: darkorange;
+    text-align: center;
+    border-radius: 25px;
+}
+.last a{
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 991px){
+	#home{
+		height: 550px;
+	}
+	#home .home-inner{
+		padding-top: 150px;
+		padding-bottom: 20px;
+	}
+	.dark-overlay{
+	background: rgba(0,80,80,0.5);
+	height: 550px;	
+	}
+	#about .about{
+		margin-top: 20px;
+		width: auto;
+	}
+	.open,.address{
+		text-align: center;
+	}
+	.social_icon{
+		text-align: center;
+		padding-left: 20px;
+	}
+	.logo1{
+		text-align: center;
+	}
+	.party-img2{
+		margin-top: -120px;
+	}
+}
+@media(max-width: 767px) and (min-width: 551px){
+	#home{
+		max-height: 500px;
+	}
+	.dark-overlay{
+	background: rgba(0,80,80,0.5);
+	height: 500px;	
+}
+	.logo{
+		margin-left: 10px;
+	}
+	#home .home-inner{
+		padding-top: 150px;
+		padding-bottom: 10px;
+	}
+	#home .home1{
+		font-size: 40px !important;
+	}
+	#home .home2{
+		font-size: 45px !important;
+	}
+	#about .about{
+		margin-top: 10px;
+		margin-left: 10px;
+		width: auto;
+	}
+	.carousel-photo{
+		width: auto;
+		height: 250px;
+		margin: 60px 0px; 
+	}
+	#batch{
+		background: #000;
+		opacity: 0.7;
+	}
+	.logo1{
+		text-align: center;
+	}
+	.social_icon{
+		text-align: center;
+	}
+	.party-img2{
+		margin-top: -120px;
+	}
+	.party-img{
+		margin-top: -50px;
+	}
+	.party-img1{
+		margin-top: -120px;
+	}
+}
+@media(max-width: 550px){
+	#home{
+		max-height: 500px;
+	}
+	.dark-overlay{
+	background: rgba(0,80,80,0.5);
+	height: 500px;	
+}
+	.logo{
+		margin-left: 5px;
+	}
+	#home .home-inner{
+		padding-top: 150px;
+		padding-bottom: 10px;
+	}
+	#home .home1{
+		font-size: 30px !important;
+	}
+	#home .home2{
+		font-size: 35px !important;
+	}
+	#about .about{
+		margin-top: 10px;
+		margin-left: 10px;
+		width: auto;
+	}
+	.carousel-photo{
+		width: auto;
+		height: 250px;
+		margin-top: 40px;
+		margin-bottom: 40px; 
+	}
+	.about-h3{
+		font-size: 35px;
+	}
+	.about-h2{
+		font-size: 40px;
+	}
+	.about-p{
+		font-size: 25px !important;
+	}
+	#batch{
+		background: #000;
+		opacity: 0.7;
+	}
+	.logo1{
+		text-align: center;
+	}
+	.social_icon{
+		text-align: center;
+	}
+	.party-img2{
+		margin-top: -120px;
+	}
+	.party-img{
+		margin-top: -50px;
+	}
+	.party-img1{
+		margin-top: -120px;
+	}
+}

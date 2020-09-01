@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Free Web tutorials">
+	<meta name="keywords" content="HTML,CSS,JavaScripts">
+	<meta name="author" content="Shuvo">
+	<meta name="viewport" content="width-device-width, initial-scale-1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edg">
+	<link rel="shortcut icon" type="image/x-icon" href="photo/logo1.png">
+	<title>FoodMart</title>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Marck+Script&family=Roboto:wght@500&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+	<!---
+		font-family: 'Dancing Script', cursive;
+
+	    font-family: 'Marck Script', cursive;
+
+	    font-family: 'Roboto', sans-serif;
+
+	    font-family: 'Tangerine', cursive;
+	--->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+	<nav class="navbar navbar-expand-md fixed-top bg-dark">
+		<div class="container">
+			<div class="logo">
+				<img src="photo/log.png" class="navbar-logo">
+				<a href="" class="navbar-brand text-light">FoodMart</a>
+			</div>
+			<button class="navbar-toggler text-light" type="button" data-toggle="collapse" data-target="#batch">
+				<span class="navbar-toggler-icon text-light">
+					<i class="fa fa-navicon" style="color:#fff; font-size:28px;"></i>
+				</span>
+			</button>
+			<div id="batch" class="collapse navbar-collapse text-center ">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item ml-4 ">
+						<a class="nav-link text-light" href="#home">HOME</a>
+					</li>
+					<li class="nav-item ml-4">
+						<a class="nav-link text-light" href="#about">ABOUT</a>
+					</li>
+					<li class="nav-item ml-4">
+						<a class="nav-link text-light" href="#menu">MENU</a>
+					</li>
+					<li class="nav-item ml-4">
+						<a class="nav-link text-light" href="#facts">FACTS</a>
+					</li>
+					<li class="nav-item ml-4">
+						<a class="nav-link text-light" href="#reserve">RESERVE</a>
+					</li>
+					<li class="nav-item ml-4">
+						<a class="nav-link text-light" href="#Footer">CONTACT US</a>
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+		
+	</nav>
+	<!--- HEAD SECTION---->
+	<section id="home">
+		<div class="dark-overlay">
+			<div class="home-inner">
+				<div class="container">
+					<div class="home text-center">
+						<h3 class="display-3 home1 text-light">Welcome To</h3>
+						<h3 class="display-4 home2 mt2 text-light">ITALIAN RESTAURANT</h3>
+						<div class="row">
+							<div class="col-md-3 col-sm-2">
+								
+							</div>
+							<div class="col-md-6 col-sm-8">
+								<button class="btn btn-outline-light mt-3"data-target="#main-id" data-toggle="modal">BOOK A TABLE</button>
+								<div class="modal" id="main-id">
+									<div class="modal-dialog">
+										<div class="modal-content modal-design">
+											<div class="modal-headertext-light">
+												<p class="modal-title text-light">Please submit your reservation form</p>
+											</div>
+											<div class="modal-body">
+												<form>
+												<div class="form-group">
+													<input type="text" placeholder="Your Name" class="form-control form-control-lg">
+												</div>
+												<div class="form-group">
+													<input type="email" placeholder="Your Email" class="form-control form-control-lg">
+												</div>
+												<div class="form-group">
+													<input type="text" placeholder="Phone Number" class="form-control form-control-lg">
+												</div>
+												<div class="form-group">
+													<input type="guest" placeholder="Number of guests" class="form-control form-control-lg">
+												</div>
+												<div class="form-group">
+								                    <input name="date" type="date" placeholder="Date" data-required="true" class="form-control form-control-lg">
+								                  </div>
+												<div class="form-group txt-sm-center txt-xs-center">
+								                    <button type="submit" class="btn btn-outline-light btn-reserve">Reserve</button>
+								                  </div>
+											</form>
+											</div>
+											<div class="modal-footer">
+												<button class="btn btn-success" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-2">
+								
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>	
+	</section>
+	<!---  About Section ---->
+	<section id="about">
+		<div class="about-overlay">
+			<div class="about-inner">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div id="slider1" class="carousel slide carousel-fade" data-ride="carousel">
+
+								<ol class="carousel-indicators">
+								    <li data-target="#slider1" data-slide-to="0" class="active"></li>
+								    <li data-target="#slider1" data-slide-to="1" ></li>
+								    <li data-target="#slider1" data-slide-to="2" ></li>
+								     <li data-target="#slider1" data-slide-to="3" ></li>
+								    <li data-target="#slider1" data-slide-to="4" ></li>
+								    <li data-target="#slider1" data-slide-to="5" ></li>
+								    <li data-target="#slider1" data-slide-to="6" ></li>
+								  </ol>
+
+								<div class="carousel-inner carousel-photo" role="listbox">
+									<div class="carousel-item active">
+										<img src="photo/photo1.jpg" width="100%" height="auto">
+									</div>
+
+									<div class="carousel-item">
+										<img src="photo/photo2.jpg" width="100%" height="auto">
+									</div>
+									<div class="carousel-item">
+										<img src="photo/photo3.jpg" width="100%" height="auto">
+									</div>
+
+									<div class="carousel-item">
+										<img src="photo/photo7.jpg" width="100%" height="auto">
+									</div>
+
+									<div class="carousel-item">
+										<img src="photo/photo6.jpg" width="100%" height="auto">
+									</div>
+									<div class="carousel-item">
+										<img src="photo/photo8.jpg" width="100%" height="auto">
+									</div>
+
+									<div class="carousel-item">
+										<img src="photo/photo9.jpg" width="100%" height="auto">
+									</div>
+
+									
+								</div>
+
+								<a href="#slider1" class=" carousel-control-prev" data-slide="prev">
+									<span class="carousel-control-prev-icon"></span>
+								</a>
+								<a href="#slider1" class=" carousel-control-next" data-slide="next">
+									<span class="carousel-control-next-icon"></span>
+								</a>
+							</div>
+
+						</div>
+						<div class="col-lg-6">
+							<div class="about">
+								<h3 class="text-dark about-h3">This is </h3>
+							<h2 class="text-dark about-h2">Our Story<span class="text-danger">.</span></h2>
+							<img src="photo/design1.png" class="design">
+							<p class="lead about-p text-justify text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+							</p>
+							</div>
+							
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="team-view">
+			<div class="team-inner">
+				<div class="Row text-center">
+						<div class="col-md-12">
+							<h4 class="team-h4">Our Team</h4>
+							<h3 class="team-h3">We're Waiting For You!</h3>
+							<img src="photo/design.png" class="team-design">
+							<p class="text-justify text-center team-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+							<div class="row card-view">
+								<div class="col-lg-4 col-sm-6">
+									<div class="card">
+										<img src="photo/owner1.jpg" width="100%" height="300px">
+										<div class="card-body bg-dark card-design">
+											<h3 class="card-title card-h3">ANNA DOE</h3>
+											<p class="text-center card-p">Owner </p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-sm-6">
+									 <div class="card">
+										<img src="photo/owner.jpg" width="100%" height="300px">
+										<div class="card-body bg-dark card-design">
+											<h3 class="card-title card-h3">MARIO DOE</h3>
+											<p class="text-center card-p">Restaurant Manager</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-sm-6">
+									<div class="card">
+										<img src="photo/owner3.jpg" width="100%" height="300px">
+										<div class="card-body bg-dark card-design">
+											<h3 class="card-title card-h3">MEGAN DOE</h3>
+											<p class="text-center card-p">Hostess</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-sm-6">
+									<div class="card">
+										<img src="photo/chef.jpg" width="100%" height="300px">
+										<div class="card-body bg-dark card-design">
+											<h3 class="card-title card-h3">GEORGE DOE</h3>
+											<p class="text-center card-p">Captain Chef</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-sm-6">
+									 <div class="card">
+										<img src="photo/chef-3.jpg" width="100%" height="300px">
+										<div class="card-body bg-dark card-design">
+											<h3 class="card-title card-h3">PAUL DOE</h3>
+											<p class="text-center card-p">Chef</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-sm-6">
+									<div class="card">
+										<img src="photo/chef2.jpg" width="100%" height="300px">
+										<div class="card-body bg-dark card-design">
+											<h3 class="card-title card-h3">PAUL DOE</h3>
+											<p class="text-center card-p">Baker</p>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>	
+	</section>
+	<section id="menu">
+       <div class="container"><br><br>
+        <div class="food-menu-top">
+           <div class="food-menu-top-layout">
+           <h2>More Dishes</h2>
+           <h1 class="text-light">FROM OUR MENU</h1>
+           </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="row">
+                <div class="col-md-1 image-inner">
+                    <img style="border-radius: 50%; box-sizing: border-box;"  src="photo/01.jpg" alt="" height="60px" width="60px">
+                </div>
+                <div class="col-md-10">
+                    <span style="font-weight: bolder; color: black;">Italian Role....................................................................................................................................................</span>
+                    <p style="color: gray; font-size: 15px; font-family: Dancing Script;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                </div>    
+                <div class="col-md-1">
+                    <p style="font-weight: bolder; color: black;">3.3$</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-1">
+                    <img style="border-radius: 50%; box-sizing: border-box;"  src="photo/01.jpg" alt="" height="60px" width="60px">
+                </div>
+                <div class="col-lg-10">
+                    <span style="font-weight: bolder; color: black;">Italian Role....................................................................................................................................................</span>
+                    <p style="color: gray; font-size: 15px; font-family: Dancing Script;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                </div>    
+                <div class="col-lg-1">
+                    <p style="font-weight: bolder; color: black;">3.3$</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-1">
+                    <img style="border-radius: 50%; box-sizing: border-box;"  src="photo/01.jpg" alt="" height="60px" width="60px">
+                </div>
+                <div class="col-lg-10">
+                    <span style="font-weight: bolder; color: black;">Italian Role....................................................................................................................................................</span>
+                    <p style="color: gray; font-size: 15px; font-family: Dancing Script;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                </div>    
+                <div class="col-lg-1">
+                    <p style="font-weight: bolder; color: black;">3.3$</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-1">
+                    <img style="border-radius: 50%; box-sizing: border-box;"  src="photo/01.jpg" alt="" height="60px" width="60px">
+                </div>
+                <div class="col-lg-10">
+                    <span style="font-weight: bolder; color: black;">Italian Role....................................................................................................................................................</span>
+                    <p style="color: gray; font-size: 15px; font-family: Dancing Script;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                </div>    
+                <div class="col-lg-1">
+                    <p style="font-weight: bolder; color: black;">3.3$</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-1">
+                    <img style="border-radius: 50%; box-sizing: border-box;"  src="photo/01.jpg" alt="" height="60px" width="60px">
+                </div>
+                <div class="col-lg-10">
+                    <span style="font-weight: bolder; color: black;">Italian Role....................................................................................................................................................</span>
+                    <p style="color: gray; font-size: 15px; font-family: Dancing Script;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                </div>    
+                <div class="col-lg-1">
+                    <p style="font-weight: bolder; color: black;">3.3$</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-1">
+                    <img style="border-radius: 50%; box-sizing: border-box;"  src="photo/01.jpg" alt="" height="60px" width="60px">
+                </div>
+                <div class="col-lg-10">
+                    <span style="font-weight: bolder; color: black;">Italian Role....................................................................................................................................................</span>
+                    <p style="color: gray; font-size: 15px; font-family: Dancing Script;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                </div>    
+                <div class="col-lg-1">
+                    <p style="font-weight: bolder; color: black;">3.3$</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-1">
+                    <img style="border-radius: 50%; box-sizing: border-box;"  src="photo/01.jpg" alt="" height="60px" width="60px">
+                </div>
+                <div class="col-lg-10">
+                    <span style="font-weight: bolder; color: black;">Italian Role....................................................................................................................................................</span>
+                    <p style="color: gray; font-size: 15px; font-family: Dancing Script;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                </div>    
+                <div class="col-lg-1">
+                    <p style="font-weight: bolder; color: black;">3.3$</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-1">
+                    <img style="border-radius: 50%; box-sizing: border-box;"  src="photo/01.jpg" alt="" height="60px" width="60px">
+                </div>
+                <div class="col-lg-10">
+                    <span style="font-weight: bolder; color: black;">Italian Role....................................................................................................................................................</span>
+                    <p style="color: gray; font-size: 15px; font-family: Dancing Script;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                </div>    
+                <div class="col-lg-1">
+                    <p style="font-weight: bolder; color: black;">3.3$</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-1">
+                    <img style="border-radius: 50%; box-sizing: border-box;"  src="photo/01.jpg" alt="" height="60px" width="60px">
+                </div>
+                <div class="col-lg-10">
+                    <span style="font-weight: bolder; color: black;">Italian Role....................................................................................................................................................</span>
+                    <p style="color: gray; font-size: 15px; font-family: Dancing Script;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                </div>    
+                <div class="col-lg-1">
+                    <p style="font-weight: bolder; color: black;">3.3$</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-1">
+                    <img style="border-radius: 50%; box-sizing: border-box;"  src="photo/01.jpg" alt="" height="60px" width="60px">
+                </div>
+                <div class="col-lg-10">
+                    <span style="font-weight: bolder; color: black;">Italian Role....................................................................................................................................................</span>
+                    <p style="color: gray; font-size: 15px; font-family: Dancing Script;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                </div>    
+                <div class="col-lg-1">
+                    <p style="font-weight: bolder; color: black;">3.3$</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-1">
+                    <img style="border-radius: 50%; box-sizing: border-box;"  src="photo/01.jpg" alt="" height="60px" width="60px">
+                </div>
+                <div class="col-lg-10">
+                    <span style="font-weight: bolder; color: black;">Italian Role....................................................................................................................................................</span>
+                    <p style="color: gray; font-size: 15px; font-family: Dancing Script;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                </div>    
+                <div class="col-lg-1">
+                    <p style="font-weight: bolder; color: black;">3.3$</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-1">
+                    <img style="border-radius: 50%; box-sizing: border-box;"  src="photo/01.jpg" alt="" height="60px" width="60px">
+                </div>
+                <div class="col-lg-10">
+                    <span style="font-weight: bolder; color: black;">Italian Role....................................................................................................................................................</span>
+                    <p style="color: gray; font-size: 15px; font-family: Dancing Script;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                </div>    
+                <div class="col-lg-1">
+                    <p style="font-weight: bolder; color: black;">3.3$</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-1">
+                    <img style="border-radius: 50%; box-sizing: border-box;"  src="photo/01.jpg" alt="" height="60px" width="60px">
+                </div>
+                <div class="col-lg-10">
+                    <span style="font-weight: bolder; color: black;">Italian Role....................................................................................................................................................</span>
+                    <p style="color: gray; font-size: 15px; font-family: Dancing Script;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                </div>    
+                <div class="col-lg-1">
+                    <p style="font-weight: bolder; color: black;">3.3$</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-1">
+                    <img style="border-radius: 50%; box-sizing: border-box;"  src="photo/01.jpg" alt="" height="60px" width="60px">
+                </div>
+                <div class="col-lg-10">
+                    <span style="font-weight: bolder; color: black;">Italian Role....................................................................................................................................................</span>
+                    <p style="color: gray; font-size: 15px; font-family: Dancing Script;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                </div>    
+                <div class="col-lg-1">
+                    <p style="font-weight: bolder; color: black;">3.3$</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-1">
+                    <img style="border-radius: 50%; box-sizing: border-box;"  src="photo/01.jpg" alt="" height="60px" width="60px">
+                </div>
+                <div class="col-lg-10">
+                    <span style="font-weight: bolder; color: black;">Italian Role....................................................................................................................................................</span>
+                    <p style="color: gray; font-size: 15px; font-family: Dancing Script;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.</p>
+                </div>    
+                <div class="col-lg-1">
+                    <p style="font-weight: bolder; color: black;">3.3$</p>
+                </div>
+            </div>
+            <br>
+        
+            <div class="last_01">
+                <p class="last text-center"><a href="#">View Full Menu</a></p>
+            </div>
+            
+        </div>
+	</section>
+	<!---  Fact Section ---->
+	<section id="facts">
+		<div class="facts-overlay">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-6">
+						<div class="counter-icon">
+							<i class="fa fa-glass" aria-hidden="true"></i>
+						</div>
+						<div class="counter-content">
+							<h5 class="counter-h5">212</h5>
+							<p class="counter-p">Different Wines</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="counter-icon">
+							<i class="fa fa-smile-o" aria-hidden="true"></i>
+						</div>
+						<div class="counter-content">
+							<h5 class="counter-h5">970</h5>
+							<p class="counter-p">Happy Clients</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="counter-icon">
+							<i class="fa fa-bicycle" aria-hidden="true"></i>
+						</div>
+						<div class="counter-content">
+							<h5 class="counter-h5">15</h5>
+							<p class="counter-p">Free Parkings</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="counter-icon">
+							<i class="fa fa-microphone" aria-hidden="true"></i>
+						</div>
+						<div class="counter-content">
+							<h5 class="counter-h5">12</h5>
+							<p class="counter-p">Piano Bar Singers</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--- #rd party Food delivery section ---->
+	<section id="3rd-party">
+		<div class="party-inner">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h3 class="party-h3">AS SEEN ON</h3>
+					</div>
+				</div>
+				<div class="row party">
+					<div class="col-lg-4 col-md-6 text-center">
+						<img src="photo/pathao.png" class="party-img">
+					</div>
+					<div class="col-lg-4 col-md-6 text-center">
+						<img src="photo/foodpanda.svg" class="party-img1">
+					</div>
+					<div class="col-lg-4 col-md-6 text-center">
+						<img src="photo/shohoz1.png" class="party-img2">	
+					</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="reserve">
+		<div class="reserve-overlay">
+			<div class="reserve-inner">
+				<div class="row">
+					<div class="col-md-3">
+						
+					</div>
+					<div class="col-md-6">
+						<br><br>
+						<div class="card text-center card-form mt-4" style="background-color: rgba(0,80,80,0.5);">
+								<div class="card-body">
+									<h3 class="reserve-h3 text-light">Reservation</h3>
+									<p class="lead text-light">Please submit your reservation form</p>
+									<form>
+										<div class="form-group">
+											<input type="text" placeholder="Your Name" class="form-control form-control-lg">
+										</div>
+										<div class="form-group">
+											<input type="email" placeholder="Your Email" class="form-control form-control-lg">
+										</div>
+										<div class="form-group">
+											<input type="text" placeholder="Phone Number" class="form-control form-control-lg">
+										</div>
+										<div class="form-group">
+											<input type="guest" placeholder="Number of guests" class="form-control form-control-lg">
+										</div>
+										<div class="form-group">
+								            <input name="date" type="date" placeholder="Date" data-required="true" class="form-control form-control-lg">
+								        </div>
+										<div class="form-group txt-sm-center txt-xs-center">
+								            <button type="submit" class="btn btn-outline-light btn-reserve">Reserve</button>
+								        </div>
+									</form>
+								</div>
+							</div><br><br>
+					</div>
+					<div class="col-md-3">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--- Footer Section ---->
+	<section id="Footer">
+		<div class="footer-overlay bg-dark">
+			<div class="footer-inner">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4 col-md-6">
+							<div class="logo1">
+								<img src="photo/log.png" class="navbar-logo1">
+								<a href="" class="navbar-brand1 text-light">FoodMart</a>
+							</div>
+							<div>
+								<div class="social_icon">
+									<a href="#"><i class="fa fa-facebook " aria-hidden="true"></i></a>
+									<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+									<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+									<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 text-light open">
+							<h5 class="text-success">OPEN HOURS</h5>
+							<div class="open-hours">
+								<p>Mon....12am-10pm</p>
+								<p>Tues....10am-10pm</p>
+								<p>Thurs....12am-10pm</p>
+								<p>Fri....12am-10pm</p>
+								<p>Sat....12am-10pm</p>
+								<p>Sun....12am-10pm</p>
+							</div>
+							
+						</div>
+						<div class="col-lg-4 col-md-12 text-light address">
+							<h5 class="text-success">CONTACT US</h5>
+							<div class="location">
+								<img src="photo/location-pin.png" class="loc">
+								<span class="tag">LakeWood Street,Banani,Dhaka-1201</span>
+							</div>
+							<div class="email">
+								<img src="photo/mail.png" class="loc">
+								<span class="tag">foodmart@gmail.com</span>
+							</div>
+							<div class="phone">
+								<img src="photo/phone.png" class="loc">
+								<span class="tag">017**********</span>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</section>
+	<!--- Copy Right Section ---->
+	<section class="copy-right text-center">
+		<div class="container">
+			<p class="copy-p text-light">Copy@right 2020 ledp students batch-2 group-6</p>
+		</div>
+	</section>
+
+	<script href="js/bootstrap.min.js"></script>
+	<script href="js/jquery-3.5.1.min.js"></script>
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>
